@@ -60,7 +60,8 @@ python word_game.py --file <path_to_article_file>
 
 ## advanced部分
 
-利用了streamlit库，可以在网页上进行游戏。
-利用了try-except语句，增强鲁棒性。
-(事实上也并不advanced。)
+1. 利用了streamlit库，可以在网页上进行游戏。
+2. 利用了try-except语句，增强鲁棒性。
+   (事实上也并不advanced。)
+
 显示上有点小Bug，但是不影响使用。
