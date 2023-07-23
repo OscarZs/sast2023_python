@@ -4,7 +4,9 @@
 
 ### 环境配置
 
-目前没有第三方依赖项，可以直接用 Python 运行。
+basic部分目前没有第三方依赖项，可以直接用 Python 3运行。
+
+advabced部分需要streamlit库
 
 ### 使用设置
 
@@ -59,6 +61,6 @@ python word_game.py --file <path_to_article_file>
 ## advanced部分
 
 利用了streamlit库，可以在网页上进行游戏。
-同时利用了try-except语句，可以在用户输入错误时提示用户重新输入。
+利用了try-except语句，增强鲁棒性。
 (事实上也并不advanced。)
 显示上有点小Bug，但是不影响使用。
