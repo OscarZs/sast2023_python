@@ -5,8 +5,8 @@
 ### 环境配置
 
 basic部分目前没有第三方依赖项，可以直接用 Python 3运行。
+功能函数保存在utils.py中，运行时保证其与main_basic.py在同一目录下即可。
 
-advabced部分需要streamlit库
 
 ### 使用设置
 
@@ -40,7 +40,7 @@ advabced部分需要streamlit库
 
 ### 游戏功能
 
-1. 游戏从提供的文件(如所提供的articles.json)中读取文章。
+1. 游戏从提供的文件(如所提供的articles.json，包含五篇文章)中读取文章。
 2. 如果命令行参数中提供了特定的文章标题，游戏会选择该文章。否则，它会随机选择一篇文章。
 3. 游戏显示所选文章的标题和内容。
 4. 游戏根据提供的提示，提示用户输入缺失的单词。
@@ -59,9 +59,20 @@ python word_game.py --file <path_to_article_file>
 玩得愉快！
 
 ## advanced部分
+(事实上也并不advanced。)
 
+### 环境配置
+需要streamlit库
+
+### 使用设置
+要开始游戏，请运行以下命令：
+
+```{.bash}
+streamlit run main_advanced.py
+```
+
+### 游戏功能
 1. 利用了streamlit库，可以在网页上进行游戏。
-2. 利用了try-except语句，增强鲁棒性。
-   (事实上也并不advanced。)
+2. 其他部分与basic部分基本相同
 
 显示上有点小Bug，但是不影响使用。
